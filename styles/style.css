@@ -112,12 +112,14 @@
 #desc{
     text-align: center;
     font-size: xx-large;
+    width: 40%;
 }
 
 #sub{
     text-align: center;
     font-size: x-large;
     font-weight: lighter;
+    width: 62%;
 }
 
 #ypbutton{
@@ -265,3 +267,67 @@ hr{
 .last a{
     color: #3da2f8;
 }
+
+/* @media screen and (min-width: 0px) and (max-width: 320px){
+
+    .midnav {
+        display: none;
+    }
+
+    #bell{
+        display: none;
+    }
+    
+    .content img{
+        margin-top: 350px;
+        width: 300px;
+        height: 150px;
+    }
+
+    #desc {
+        width: 70%;
+    }
+
+    #sub {
+        width: 85%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  
+    .midnav {
+        display: none;
+    }
+
+    #bell{
+        display: none;
+    }
+    
+    .content img{
+        margin-top: 350px;
+        width: 350px;
+        height: 150px;
+    }
+
+    #desc {
+        width: 70%;
+    }
+
+    #sub {
+        width: 85%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    
+}
+
+@media screen and (min-width: 1280px){
+    
+} */
